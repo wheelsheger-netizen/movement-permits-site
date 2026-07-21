@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Responsive Page</title> <style> body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; }
+.container { max-width: 3700px; margin: 0 auto; padding: 20px; border: 1px solid #fafafa; }
+.logo { display: flex; align-items: center; margin-bottom: 20px; } .logo img { width: 100px; height: 100px; margin-right: 10px; }
+h1 { text-align: center; margin-bottom: 10px; }
+.info { margin-bottom: 20px; padding-top: 1%; padding-bottom: 15px; padding-left: 0px; border-radius: 90px; }
+.info p { margin-bottom:10px; font-size: 9px; color: #666; }
+.details { background-color: #e8edf0; padding: 25px; margin-bottom: 20px; }
+.details h2 { color: #333; margin-bottom: 10px; }
+.details label { display: block; font-size: 13px; font-weight: bold; margin-bottom: 5px; }
+.details input { width: calc(100% - 22px); padding: 10px; margin-bottom: 17px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+.placeholder { width: calc(100% - 15px); padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; font-size: large; background-color: green; color: white; display: flex; justify-content:left; } .placeholder1 { width: calc(100% - 15px); padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; font-size: large; background-color: green; color: white; display: flex; justify-content:left; } .placeholder2 { width: calc(100% - 15px); padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; font-size: 15.5px; background-color: white; color: rgba(14, 13, 13, 0.706); display: flex; justify-content:left; } 
+@media only screen and (max-width: 600px) { .container { padding: 10px; }
+.logo img { width: 100px; height: 100px; margin-right: -2%; }
+h1 { font-size: 20px; } } </style> </head> <body> <div class="container"> <div class="logo"> <img src="https://trafficmanagementofficeaddisababa.netlify.app/logotr.jpg" alt="Yoy Logo" /> <h1 style="font-size: 20px"> የአዲስ አበባ ከተማ አስተዳደር <br> ትራፊክ ማኔጅመንት ኤጀንሲ</h1> </div>
+<h1 style="color: rgb(33, 108, 210); font-size: 29px; margin-bottom: 0px"> የሞተር ብስክሌት መረጃ </h1>
+<div class="info"> <p style="color: #666; font-size: 9.3px; line-height: 20px;"> <b>ማሣሠቢያ:</b4> ከዚህ ሲስተም የሚገኘው መረጃ በመንቀሳቀሻ ፍቃድ ካርድ ላይ ከተመዘገበው ጋር የማይጣጣም ከሆነ የመንቀሳቀሻ ፍቃዱ ህጋዊ አለመሆኑን እናረጋግጣለን።</b4> </p> </div> <div class="details"> <h2 style="padding-bottom:30px; margin-top: 0%;">AA-02-3554</h2> <label for="status">የመንቀሳቀሻ ፍቃድ ሁኔታ</label> <div class="placeholder" id="status">ታድሷል</div> <hr />
+<label for="time">የመንቀሳቀሻ ፍቃድ ማብቂያ ቀን (ቀቀ/ወወ/ዓዓዓዓ)</label> <div class="placeholder2" id="time">21/03/2027</div> <hr /> <label for="gps">የጂፒኤስ ሁኔታ</label> <div class="placeholder1" id="gps">መረጃ ይልካል</div> <hr />
+<label for="gps-id">የጂፒኤስ መለያ ቁጥር</label> <div class="placeholder2" id="gps-id">868003034578877</div>
+<label for="gps-org">የጂፒኤስ ገጣሚ ድርጅት</label> <div class="placeholder2" id="gps-org">Speed</div><label for="reg-date">ሞተር ብስክሌቱ በሲስተም የተመዘገበበት ቀን (ቀቀ/ ወወ/ዓዓዓዓ)</label> <div class="placeholder2" id="reg-date">21/03/2026</div>
+<label for="gps-type">የጂፒኤስ መሣሪያ አይነት</label> <div class="placeholder2" id="gps-type">ET-300</div>
+<hr /> <label for="owner-name">የባለቤት ስም</label> <div class="placeholder2" id="owner-name">Worke Lula</div> <label for="owner-type">ባለቤትነት</label> <div class="placeholder2" id="owner-type">Individual</div> <label for="owner-phone">የባለቤት ስልክ</label> <div class="placeholder2" id="owner-phone">0925154470</div> <hr /> <label for="chassis">የሻንሲ ቁጥር</label> <div class="placeholder2" id="chassis">MD634KE44F2G81023</div> <label for="engine">የሞተር ቁጥር</label> <div class="placeholder2" id="engine">OE4GF2817302</div> <label for="engine-type">የሞተር ስሪት</label> <div class="placeholder2" id="engine-type">India</div> <label for="engine-model">የሞተር ሞዴል</label> <div class="placeholder2" id="engine-model">APACHE RTR160</div> <label for="year">የተመረተበት ዓመት</label> <div class="placeholder2" id="year">2015</div> <p style="color: rgb(235, 21, 21); font-size: 10px; line-height: 20px;"> 
+<b>ከዚህ ሲስተም የሚገኘው መረጃ በመንቀሳቀሻ ፍቃድ ካርድ ላይ ከተመዘገበው ጋር የማይጣጣም ከሆነ የመንቀሳቀሻ ፍቃዱ ህጋዊ አለመሆኑን እናረጋግጣለን።</b> </p> </div> <p style="margin-top: 45px;"> <div style="color: rgb(68, 107, 214); font-size: 15px; line-height: 12px;"> <center><b>ለተጨማሪ መረጃ</b>
+</center><br> </div> <div style="margin-left: 20px; margin-right: 20px;font-size: 15px; line-height: 30px; color: #666;"> 
+<center>የአዲስ አበባ ከተማ አስተዳደር ትራፊክ ማኔጅመንት ኤጀንሲ የሞተር ብስክሌት መቆጣጠሪያ ማዕከል <div style="margin-left: 10px; margin-right: 10px;font-size: 15px; color: #666; line-height: 25px;"> <b>ስልክ:</b> <a href="#" style="text-decoration: none;font-size: 15px;">+251-116-672386 / +251-116-662689</a> 
+</div> <center style=" color: #666;">696  ነጻ  የስልክ  መስመር</center> </p> </div> </div> </body></html>
